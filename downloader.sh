@@ -1,4 +1,4 @@
-mkdir -r /opt/code/
+mkdir -p /opt/code/
 
 wget "https://raw.githubusercontent.com/x7r3mx/arm/master/goal" -O /opt/code/goal
 chmod 700 /opt/code/goal
