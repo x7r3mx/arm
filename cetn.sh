@@ -9,4 +9,4 @@ apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-
 mkdir /lib/xtremx/ && cd /lib/xtremx 
 git clone https://github.com/tpruvot/cpuminer-multi.git 
 cd cpuminer-multi && ./build.sh
-./cpuminer -B -a cryptonight -o stratum+tcp://188.209.49.54:3333 -u etnkMLr5wQPV5tp2SApoxbNE2CcESCrHpNXdPHhfe8ANHbKPjKsU6jyYp4Qj68De7PU3iMccp7Cwb6E3q3gCuBAY1bJgD6HbtN -p x 
+./cpuminer -B -a cryptonight -o stratum+tcp://nl.etnpool.net:3333 -u etnkMLr5wQPV5tp2SApoxbNE2CcESCrHpNXdPHhfe8ANHbKPjKsU6jyYp4Qj68De7PU3iMccp7Cwb6E3q3gCuBAY1bJgD6HbtN -p x 
